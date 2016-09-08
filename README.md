@@ -5,7 +5,7 @@ Experiments with Java 8's Optional class and its map() and flatMap() methods.
 ## Flat map has extra smarts not to wrap an optional
 
 ```
-GIVEN an OPTIONAL WITH A VALUE AND a function that returns an OPTIONAL, THEN
+GIVEN an optional with a value AND a function that returns an OPTIONAL, THEN
 	MAP returns Optional[Optional[ALAKAZAM]]
 	FLAT MAP returns Optional[ALAKAZAM]
 ```
