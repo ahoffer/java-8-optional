@@ -8,7 +8,7 @@ GIVEN an empty optional AND a function that returns an OPTIONAL, THEN
 	FLAT MAP returns Optional.empty
 ```
 
-## Flat map has extra smarts not to wrap an optional
+## Flat map has extra smarts not to wrap ANY optional
 ```
 GIVEN an optional with a value AND a function that returns an OPTIONAL, THEN
 	MAP returns Optional[Optional[ALAKAZAM]]
