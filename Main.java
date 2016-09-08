@@ -3,7 +3,7 @@ import java.util.Optional;
 public class Main  {
 
     public static void main(String[] args) {
-        testReturnOptional(Optional.of("ALAKAZAM"), "an OPTIONAL WITH A VALUE");
+        testReturnOptional(Optional.of("ALAKAZAM"), "an optional with a value");
         println("(Flat map has extra smarts not to wrap an optional)");
 
         testReturnOptional(Optional.empty(), "an empty optional");
